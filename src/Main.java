@@ -17,11 +17,23 @@ public class Main {
         System.out.println("3) Informacion del camion");
         System.out.println("4) Informacion del carro electrico");
         System.out.println("5) Cargar bateria");
-        System.out.println("6) Salir");
+        System.out.println("6) Abastecer combustible en todos los vehiculos");
+        System.out.println("7) Salir");
 
         switch (i){
             case 1:
                 Carro1.mostrarInfo();
+            break;
+
+            case 2:
+                Moto1.mostrarInfo();
+                break;
+            case 3:
+                Camion.mostrarInfo();
+                break;
+            case 4:
+                CarroElectrico1.mostrarInfo();
+                break;
 
         }
     }
